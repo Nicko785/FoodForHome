@@ -1,0 +1,26 @@
+.header
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.Header__buttonMenu
+{
+    max-width: 40px;
+    width: 12%;
+    height: fit-content;
+    background-color: white;
+    border: white;
+}
+.Header__imagenMenu
+{
+    height: 100%;
+    width: 100%;
+}
+.Header__titulo
+{
+    margin-left: 5%;
+}

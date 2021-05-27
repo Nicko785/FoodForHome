@@ -1,0 +1,102 @@
+.main__titulo
+{
+    margin-left: 5%;
+    font-size: 35px;
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+.main__texto
+{
+    margin-left: 5%;
+    font-size: 20px;
+    margin-top: 0;
+}
+.main__scroll
+{
+    overflow-y: hidden; 
+    overflow-x: auto;
+    height: 90px;
+    white-space: nowrap;
+}
+.main__carruselHorizontal
+{
+    height: fit-content;
+    width: 100px;
+    max-width: 100px;
+    background-color: white;
+    border: 0;
+}
+.imagen_carrucel
+{
+    height: 100%;
+    width: 100%;
+}
+main h3
+{
+    color: #FB8B38;
+}
+main p
+{
+  font-size: 12px;
+}
+main h2
+{
+  font-size: 16px;
+}
+.main_menu
+{
+    max-height: 477px;
+    overflow-y: scroll;
+}
+.plato_chiken 
+{
+    display: flex;
+    position: relative;
+
+}
+.chiken
+{
+    width: 38%;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 38%;
+
+}
+.chiken_info 
+{
+  margin-left: 5%;
+}
+
+.plato_mutton
+{
+    display: flex;
+    position: relative;
+}
+.mutton
+{
+    width: 38%;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 38%;
+    
+}
+.mutton_info 
+{
+    margin-left: 5%;
+}
+.plato_french
+{
+    display: flex;
+    position: relative;
+}
+.french
+{
+    width: 38%;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 38%;
+}
+.french_info 
+{
+    margin-left: 5%;
+}
