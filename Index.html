@@ -24,19 +24,24 @@
                 <p class="main__texto">Lorem ipsum dolor sit amet consecteur</p>
             </div>
             <div class="main__scroll">
-                <button class="main__carruselHorizontal"><img class="imagen_carrucel" src="emoticons/breakfast.svg" alt=""></button>
-                <button class="main__carruselHorizontal"><img class="imagen_carrucel" src="emoticons/fast-food.svg" alt=""></button>
-                <button class="main__carruselHorizontal"><img class="imagen_carrucel" src="emoticons/" alt=""></button>
-                <button class="main__carruselHorizontal"><img class="imagen_carrucel" src="emoticons/" alt=""></button>
+                <button class="main__carruselHorizontal imgBreakfast">Breakfast</button>
+                <button class="main__carruselHorizontal imgFastFood">Fast food</button>
+                <button class="main__carruselHorizontal imgDinner">Dinner</button>
+                <button class="main__carruselHorizontal imgDesserts">Desserts</button>
             </div>
             <div class="main_menu">
                 <div class="plato_chiken">
-                        <img src="emoticons/plato 1.PNG" class="chiken">
-                        <div class="chiken_info">
-                            <h3>$52.00</h3>
-                            <h2>Chiken Veggie Salad</h2>
-                            <p>with cheese sauce</p>
-                        </div>    
+                    <img src="emoticons/plato 1.PNG" class="chiken">
+                    <div class="chiken_info">
+                        <h3>$52.00</h3>
+                        <h2>Chiken Veggie Salad</h2>
+                        <p>with cheese sauce</p>
+                        <div class="botonesContadores">
+                            <button>-</button>
+                            <p>02</p>
+                            <button>+</button>
+                        </div>
+                    </div>    
                 </div>
                 <div class="plato_chiken">
                     <img src="emoticons/plato 1.PNG" class="chiken">
@@ -44,32 +49,51 @@
                         <h3>$52.00</h3>
                         <h2>Chiken Veggie Salad</h2>
                         <p>with cheese sauce</p>
+                        <div class="botonesContadores">
+                            <button>-</button>
+                            <p>01</p>
+                            <button>+</button>
+                        </div>
                     </div>    
                 </div>
                 <div class="plato_mutton">
                     <img src="emoticons/plato 2.PNG" class="mutton">
-                        <div class="mutton_info">
-                            <h3>$23.00</h3>
-                            <h2>Mutton curry</h2>
-                            <p>with Basmati rice</p>
-                        </div>        
+                    <div class="mutton_info">
+                        <h3>$23.00</h3>
+                        <h2>Mutton curry</h2>
+                        <p>with Basmati rice</p>
+                        <div class="botonesContadores">
+                            <button>-</button>
+                            <p>04</p>
+                            <button>+</button>
+                        </div>
+                    </div>        
                 </div>
                 <div class="plato_french">
                     <img src="emoticons/plato 3.PNG" class="french">
-                        <div class="french_info">
-                            <h3>$21.00</h3>
-                            <h2>French Fry</h2>
-                            <p>with beef bacon</p>
+                    <div class="french_info">
+                        <h3>$21.00</h3>
+                        <h2>French Fry</h2>
+                        <p>with beef bacon</p>
+                        <div class="botonesContadores">
+                            <button>-</button>
+                            <p>01</p>
+                            <button>+</button>
                         </div>
+                    </div>
                 </div>
             </div>
         </main>
         <footer>
-            <button class="icon_footer"><img src="emoticons/hogar.svg"></button>
-            <button class="icon_footer"><img src="emoticons/bolsa-de-la-compra.svg"></button>
-            <button class="icon_footer"><img src="emoticons/carrito.PNG"></button>
-            <button class="icon_footer"><img src="emoticons/me-gusta.svg"></button>
-            <button class="icon_footer"><img src="emoticons/usuario.svg"></button>
+            <div class="footer__botones">
+                <button class="icon_footer"><img src="emoticons/hogar.svg"></button>
+                <button class="icon_footer"><img src="emoticons/bolsa-de-la-compra.svg"></button>
+            </div>
+            <button class="icon_footer carrito"><img class="imgCarrito" src="emoticons/carrito.PNG"></button>
+            <div class="footer__botones">
+                <button class="icon_footer"><img src="emoticons/me-gusta.svg"></button>
+                <button class="icon_footer"><img src="emoticons/usuario.svg"></button>
+            </div>
         </footer>
     </section>
 <script src="script.js"></script>    

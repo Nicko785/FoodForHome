@@ -1,3 +1,10 @@
+::-webkit-scrollbar {
+    display: none;
+}
+main
+{
+    font-family: 'Roboto', sans-serif;
+}
 .main__titulo
 {
     margin-left: 5%;
@@ -8,28 +15,56 @@
 .main__texto
 {
     margin-left: 5%;
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 0;
+    color: #938686 ;
 }
 .main__scroll
 {
+    position: relative;
     overflow-y: hidden; 
     overflow-x: auto;
-    height: 90px;
+    height: auto;
     white-space: nowrap;
 }
 .main__carruselHorizontal
 {
-    height: fit-content;
-    width: 100px;
-    max-width: 100px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 90%;
+    width: 25%;
+    margin-left: 2%;
     background-color: white;
     border: 0;
+    background-size: 80% 70%;
+    background-repeat: no-repeat;
+    background-position:top;
+    padding-top: 18%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 10px 10px 150px 8px rgba(0, 0, 0, 0.1);
+}
+.imgBreakfast
+{
+    background-image:url(emoticons/breakfast.svg); 
+}
+.imgFastFood
+{
+    background-image:url(emoticons/fast-food.svg);
+}
+.imgDinner
+{
+    background-image:url(emoticons/dinner.png);
+}
+.imgDesserts
+{
+    background-image:url(emoticons/pastel.png);
 }
 .imagen_carrucel
 {
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 90%;
 }
 main h3
 {
@@ -48,6 +83,24 @@ main h2
     max-height: 477px;
     overflow-y: scroll;
 }
+.botonesContadores
+{
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.botonesContadores button
+{
+    box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+}
+.botonesContadores p
+{
+    background-color: #EEEFF1;
+}
 .plato_chiken 
 {
     display: flex;
@@ -65,6 +118,7 @@ main h2
 .chiken_info 
 {
   margin-left: 5%;
+  width: 60%;
 }
 
 .plato_mutton
@@ -83,6 +137,7 @@ main h2
 .mutton_info 
 {
     margin-left: 5%;
+    width: 60%;
 }
 .plato_french
 {
@@ -99,4 +154,5 @@ main h2
 .french_info 
 {
     margin-left: 5%;
+    width: 60%;
 }
