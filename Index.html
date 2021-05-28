@@ -13,7 +13,7 @@
     <title>Food For Home</title>
 </head>
 <body>
-    <section class="contenedorTotal">
+    <section id="index" class="contenedorTotal">
         <header class="header">
             <h3 class="Header__titulo">Food House</h3>
             <button class="Header__buttonMenu"><img class="Header__imagenMenu" src="emoticons/menu.png" alt=""></button>
@@ -84,17 +84,21 @@
                 </div>
             </div>
         </main>
-        <footer>
+        <footer class="footer">
             <div class="footer__botones">
                 <button class="icon_footer"><img src="emoticons/hogar.svg"></button>
                 <button class="icon_footer"><img src="emoticons/bolsa-de-la-compra.svg"></button>
             </div>
-            <button class="icon_footer carrito"><img class="imgCarrito" src="emoticons/carrito.PNG"></button>
+            <button onclick="ocultar(this)" class="icon_footer carrito"><img class="imgCarrito" src="emoticons/carrito.PNG"></button>
             <div class="footer__botones">
                 <button class="icon_footer"><img src="emoticons/me-gusta.svg"></button>
                 <button class="icon_footer"><img src="emoticons/usuario.svg"></button>
             </div>
         </footer>
+    </section>
+    <section>
+        <header></header>
+
     </section>
 <script src="script.js"></script>    
 </body>
